@@ -24,18 +24,11 @@
 <body>
 	<div class="container">
 		<h1>My HCI Friends</h1>
-
-		<div class="friend">
-			<img src="http://lorempixel.com/500/500/people">
-			<h3>First friend</h3>
-			<p>This is my friend</p>
-		</div>
-		<hr>
 		
 		{{#each friends}}
 			<div class="friend">
 					<img src="{{imageURL}}" class="img-responsive">
-					<h3><a href="#">{{name}}</a></h3>
+					<h3><a href="#" class="friendName">{{name}}</a></h3>
 					<p>{{description}}</p>
 				</a>
 			</div>
